@@ -1,0 +1,146 @@
+body {
+    font-family: 'Libre Caslon Text', serif;
+    
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.header-index h1 {
+    font-weight: 400;
+}
+
+.header-index h1 span {
+    font-weight: 700;
+}
+
+.header-index {
+    /* background-color: salmon; */
+    color: rgb(230, 221, 215);
+    text-align: center;
+    background-image: url(images/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+img {
+    height: 75%;
+    width: 75%;
+}
+
+.header-index a{
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(224, 204, 19);
+}
+
+.header-index a:hover {
+  color: rgb(226, 11, 11);  
+}
+
+.header-index a:active {
+    color: turquoise;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    text-align: center;
+    background-color: rgb(1, 1, 15);
+    text-decoration: none;
+    color: wheat;
+    font-size: 22px;
+    width: 150px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+footer a {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer a:active {
+    color: turquoise;
+}
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+main article a:hover {
+
+    color: red;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.about-main-img{
+    flex: 0 0 50%;
+    padding: 10px;
+}
+
+.about-main-text {
+    padding: 10px;
+}
+
+.contact-main {
+    background-image: url(images/contact.jpg);
+    height:80vh;
+    color: rgb(230, 221, 215);
+    
+}
+
+.contact-main-img{
+    flex: 0 0 50%;
+    padding: 10px;
+    
+}
+
+.contact-main-content {
+    background-color: black;
+    text-align: center;
+}
